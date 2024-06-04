@@ -37,6 +37,12 @@ names(x) <- c( t(features[, 2]), "Activity_Label", "Subject" )
 # Retains only the measurements for mean and standard deviation
 x_msd <- x[ , c( grep("^(?!.*Freq).*mean|.*std", names(x), perl = TRUE), 562, 563) ]
 
+# Makes the names of the variables more clear to understand
+names(x_msd) <- gsub("^t","Time", names(x_msd))
+names(x_msd) <- gsub("^f","Frequency", names(x_msd))
+names(x_msd) <- gsub("Acc","Acceleration", names(x_msd))
+names(x_msd) <- gsub("Gyro","Gyroscope", names(x_msd))
+
 # Creates new data set containing the average of each variable per activity and subject
 x_act_sub <- group_by(x_msd, Activity_Label, Subject)
 x_summary <- summarise_all(x_act_sub, list(mean = mean))

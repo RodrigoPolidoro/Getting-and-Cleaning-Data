@@ -11,23 +11,23 @@ The run_analysis.R script performs the necessary steps to clean the data and wri
 
 The following variables appear on each data set:
 
-- tBodyAcceleration-XYZ
-- tGravityAcceleration-XYZ
-- tBodyAccelerationJerk-XYZ
-- tBodyGyroscope-XYZ
-- tBodyGyroscopeJerk-XYZ
-- tBodyAccelerationMag
-- tGravityAccelerationMag
-- tBodyAccelerationJerkMag
-- tBodyGyroscopeMag
-- tBodyGyroscopeJerkMag
-- fBodyAcceleration-XYZ
-- fBodyAccelerationJerk-XYZ
-- fBodyGyroscope-XYZ
-- fBodyAccelerationMag
-- fBodyAccelerationJerkMag
-- fBodyGyroscopeMag
-- fBodyGyroscopeJerkMag
+- TimeBodyAcceleration-XYZ
+- TimeGravityAcceleration-XYZ
+- TimeBodyAccelerationJerk-XYZ
+- TimeBodyGyroscope-XYZ
+- TimeBodyGyroscopeJerk-XYZ
+- TimeBodyAccelerationMag
+- TimeGravityAccelerationMag
+- TimeBodyAccelerationJerkMag
+- TimeBodyGyroscopeMag
+- TimeBodyGyroscopeJerkMag
+- FrequencyBodyAcceleration-XYZ
+- FrequencyBodyAccelerationJerk-XYZ
+- FrequencyBodyGyroscope-XYZ
+- FrequencyBodyAccelerationMag
+- FrequencyBodyAccelerationJerkMag
+- FrequencyBodyGyroscopeMag
+- FrequencyBodyGyroscopeJerkMag
 - Activity_Label
 - Subject
  

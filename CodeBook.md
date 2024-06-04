@@ -11,23 +11,25 @@ The run_analysis.R script performs the necessary steps to clean the data and wri
 
 The following variables appear on each data set:
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcceleration-XYZ
+- tGravityAcceleration-XYZ
+- tBodyAccelerationJerk-XYZ
+- tBodyGyroscope-XYZ
+- tBodyGyroscopeJerk-XYZ
+- tBodyAccelerationMag
+- tGravityAccelerationMag
+- tBodyAccelerationJerkMag
+- tBodyGyroscopeMag
+- tBodyGyroscopeJerkMag
+- fBodyAcceleration-XYZ
+- fBodyAccelerationJerk-XYZ
+- fBodyGyroscope-XYZ
+- fBodyAccelerationMag
+- fBodyAccelerationJerkMag
+- fBodyGyroscopeMag
+- fBodyGyroscopeJerkMag
+- Activity_Label
+- Subject
  
 In mean_and_std.txt, each of these variables was analysed by taking its mean and standard deviation.
 

@@ -3,7 +3,7 @@
 
  It contains the following files:
 
- UCI HAR Dataset - original data for analysis, more info on its own README.
+ - UCI HAR Dataset - original data for analysis, more info on its own README.
 
  - run_analysis.R - script that contains the necessary code to clean the data and write it to .txt files. The following process was carried out:
 
